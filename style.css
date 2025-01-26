@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    background: rgb(105, 105, 105);
+}
+
+html {
+    width: 100%;
+    height: 100%
+}
+
+
+
+#bmenu {
+    z-index: 3;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    width: 100%;
+    height: 80px;
+    background: linear-gradient(to left, #b72bd4, #772f87);
+}
+
+#logo_grande {
+    z-index: 4;
+    position: absolute;
+    height: 60%;
+    background: none;
+    left: 50px;
+    bottom: 23%;
+}
+
+.btmenu {
+    position: relative;
+    margin-left: 25px;
+    background: none;
+    color: white;
+    font-family: arial;
+    text-decoration: none;
+    left: 57%;
+    top: 37%;
+}
+
+@media (max-width: 768px) {
+    #bmenu {
+        width: 100%;
+        height: 60px;
+    }
+
+    #logo_grande {
+        left: 20px;
+    }
+}
