@@ -81,7 +81,7 @@ body {
     margin: 0;
 }
 
-#areapix {
+#areafotos {
     padding-top: 50px;
     padding-bottom: 125px;
     width: 600px;
@@ -92,7 +92,7 @@ body {
     transition: width 0.5s;
 }
 
-#areapix h1 {
+#areafotos h1 {
     display: inline-block;
     font-family: arial;
     background: none;
@@ -105,85 +105,43 @@ body {
     transition: font-size 0.5s;
 }
 
-#QRCODE {
-    position: relative;
-    top: 20px;
-    background: none;
-    width: 270px;
-    height: 270px;
-    left: 50%;
-    transform: translate(-50%,0);
-    transition: width 0.5s, height 0.5s, left 0.5s, top 0.5s;
-}
-
-.pix-key {
-    top: 65px;
-    position: relative;
-    font-family: arial;
-    font-size: 14px;
-    color: #333;
-    word-wrap: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    margin-bottom: 20px;
-    padding: 10px;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    background-color: #f9f9f9; 
-    width: 400px;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    transition: top 0.5s, width 0.5s;
-}
-
-.copy-button {
+.buttonfoto {
     position: relative;
     background-color: #6A0DAD;
     color: white;
     border: 0 solid #6A0DAD;
     padding: 10px 20px;
+    margin: 10px 0;
     border-radius: 8px;
     font-size: 16px;
     cursor: pointer;
     transition: background-color 0.3s, width 0.3s, height 0.3s, top 0.5s;
-    top: 55px;
+    top: 150px;
     left: 50%;
     transform: translate(-50%, 0);
     width: 130px;
     height: 40px;
 }
 
-.copy-button:hover {
+.buttonfoto:hover {
     background-color: #9B30FF;
 }
 
-.copy-button:focus {
+.buttonfoto:focus {
     outline: none;
     box-shadow: none;
   }
 
 @media (max-width: 768px) {
-    #areapix {
+    #areafotos {
         width: 100%;
     }
 
-    #areapix h1 {
+    #areafotos h1 {
         font-size: 25px;
     }
 
-    #QRCODE {
-        width: 200px;
-        height: 200px;
-        left: 42%;
-        top: 25px;
-    }
-
-    .pix-key {
-        top: 140px;
-        width: 300px;
-    }
-
-    .copy-button {
+    .buttonfoto {
         top: 130px;
     }
 }
